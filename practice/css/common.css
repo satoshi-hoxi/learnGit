@@ -1,0 +1,41 @@
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:link {
+  color: #666;
+}
+a:visited {
+  color: #666;
+}
+a:hover {
+  color: #f10215;/*有部分的a标签没法变色？*/
+}
+
+.clear, .clr, .m, .mb, .mc, .mt, .p-detail, .p-img,
+.p-market, .p-name, .p-price, .sm, .smb, .smc, .smt {
+  overflow: hidden;
+}
+
+.w {
+  margin: auto;
+  width: 1190px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.dorpdown {
+  position: relative;
+  z-index: 21;
+}/*下拉链表位置设定*/
+.dorpdown-layer {
+  display: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, .1);
+}
+.dorpdown:hover .dorpdown-layer, .hover .dorpdown-layer {
+    display: block;
+}

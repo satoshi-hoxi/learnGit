@@ -1,0 +1,443 @@
+/*总设置*/
+.fs {
+  z-index: 9;
+  margin-bottom: 10px;
+  background-color: #f7f7f7;
+}
+.fs, .fs_inner {
+  position: relative;
+}
+.cate_menu_item  a:link {
+  color: #fff;
+}
+.cate_menu_item  a:visited {
+  color: #fff;
+}
+.cate_menu_item  a:hover {
+  color: #f10215;
+}
+.cate_channel  a:link {
+  color: #fff;
+}
+.cate_channel  a:visited {
+  color: #fff;
+}
+.cate_channel  a:hover {
+  color: #f10215;
+}
+/*总设置*/
+
+.fs_inner {
+  z-index: 1;
+  height: 480px;
+  background-color: #f6f6f6;
+}
+/*列一内容*/
+/*列一总设置*/
+.grid_c1 {
+  margin: 0 auto;
+  width: 1190px;
+}
+
+.fs_col1, .fs_col2 {
+  float: left;
+  height: 100%;
+}
+.fs_col1 {
+  width: 190px;
+  margin-right: 10px;
+}
+
+.cate {
+  position: relative;
+  z-index: 2;
+}/*表单定位*/
+/*分类表单菜单*/
+.cate_menu {
+  overflow: hidden;
+  padding: 15px 0;
+  height: 450px;
+  background-color: #6e6568;
+  color: #fff;
+}
+
+.cate_menu_item {
+  overflow: hidden;
+  padding-left: 12px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 0;
+}
+.cate_menu_line {
+  padding: 0 4px;
+  font-size: 12px;
+}
+.cate_menu_lk {
+  font-size: 14px;
+  color: #fff;
+}/*左侧菜单样式*/
+/*扩展表单定位及样式设置*/
+.dorpright {
+  z-index: 21;
+}
+.JS_navCtn .line-one:hover .cate_menu_item,hover .cate_menu_item {
+  background-color: #999395;
+}/*左侧菜单按钮*/
+.dorpright:hover .dorpright-layer {
+    display: block;
+}/*右侧表单按钮*/
+.dorpright-layer {
+  position: absolute;
+  display: none;
+  border: 1px solid #f7f7f7;
+  background-color: #f7f7f7;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .1);
+  left: 190px;
+  top: 0;
+  width: 998px;
+}
+/*扩展表单定位及样式设置*/
+/*扩展表单内容样式*/
+.cate_part {
+  padding: 20px 0 10px;
+}
+/*cate-part1*/
+.cate_part_col1 {
+  float: left;
+  width: 800px;
+}
+.cate_channel {
+  overflow: hidden;
+  padding-left: 20px;
+  height: 24px;
+}
+.cate_channel_lk {
+  float: left;
+  margin-right: 10px;
+  padding: 0 10px;
+  height: 24px;
+  background-color: #6e6568;
+  line-height: 24px;
+  color: #fff;
+}
+
+.cate_channel .fa-angle-right {
+  font-size: 15px;
+  margin: 5px;
+}/*以上为深灰色一行*/
+
+.cate_detail {
+  overflow: hidden;
+  padding: 10px 0 0 20px;
+}
+
+
+.cate_detail_item {
+  overflow: hidden;/*让我填充的内容提行*/
+  width: 100%;
+}
+.cate_detail_tit {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  float: left;
+  left: 0;
+  top: 9px;
+  width: 75px;
+  text-align: right;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.cate_detail_tit_lk .fa-angle-right {
+  margin-left: 5px;
+}
+
+.cate_detail_con {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  padding: 6px 0;
+  width: 690px;
+  border-top: 1px solid #eee;
+}
+.cate_detail_item1
+.cate_detail_con {
+  border-top: none;
+}
+
+.cate_detail_con_lk {
+  float: left;
+  margin: 4px 0;
+  padding: 0 10px;
+  height: 16px;
+  border-left: 1px solid #e0e0e0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+/*cate-part1*/
+
+/*cate-part2*/
+.cate_part_col2 {
+  float: left;
+  width: 198px;
+}
+
+.cate_brand {
+  margin: auto;
+  width: 168px;
+  font-size: 0;
+}
+
+.cate_brand_lk {
+  overflow: hidden;
+  display: inline-block;
+  width: 83px;
+  height: 35px;
+  margin: 0 0 1px 1px;
+  background-color: #e7e7e7;
+}
+.cate_brand_lk img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.cate_promotion {
+  margin: 10px auto 0;
+  width: 168px;
+}
+.cate_promotion_lk {
+  display: block;
+  margin-bottom: 1px;
+  height: 134px;
+  background-color: #e7e7e7;
+}
+/*cate-part2*/
+/*扩展表单内容样式*/
+/*分类表单菜单*/
+/*列一总设置*/
+/*列一内容*/
+
+
+/*列二内容*/
+.fs_col2 {
+  width: 790px;
+  margin-right: 0;
+}
+
+
+.slider_main {
+  position: relative;
+  margin-bottom: 10px;
+  height: 340px;
+}
+.slider_main_lk {
+  width: 800px;
+  height: 340px;
+}
+
+.slider_extend {
+  margin-left: -10px;
+  height: 130px;
+}
+.slider_bi {
+  overflow: hidden;
+  float: left;
+  margin-left: 10px;
+  width: 390px;
+  height: 130px;
+}
+.slider_bi_lk {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.slider_bi_img {
+  display: block;
+  width: 390px;
+  height: 130px;
+}
+/*列二内容*/
+
+/*列三内容*/
+.fs_col3 {
+  float: right;
+  margin-left: 5px;
+  width: 190px;
+  height: 100%;/*什么情况下需要*/
+  background-color: #fff;
+}
+.user {
+  padding: 0 10px;
+  height: 115px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.user_info {
+  overflow: hidden;
+  position: relative;
+  padding: 15px 0 15px 60px;
+  height: 45px;
+}
+.user_info_avatar {
+  overflow: hidden;
+  position: absolute;
+  margin-left: -60px;
+  width: 45px;
+  height: 45px;
+}
+.user_info_avatar img {
+  display: block;
+  height: 100%;
+  border-radius: 23px;
+}
+
+.user_info_show p {
+  overflow: hidden;
+  margin-top: 2px;
+  width: 100%;
+}
+.user_info_show a {
+  margin-right: 5px;
+  color: #000;
+}
+
+.user_profit {
+  overflow: hidden;
+  height: 24px;
+  font-size: 0;
+}
+.user_profit a {
+  display: inline-block;
+  margin-right: 10px;
+  width: 70px;
+  height: 20px;
+  border: 2px solid #e01222;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: #e01222;
+}
+/*以上为第一部分*/
+/*第二部分*/
+.news {
+  overflow: hidden;
+  padding: 0 15px;
+  height: 154px;
+}
+
+.news .mod_tab_head {
+  padding: 8px 0 4px;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  line-height: 14px;
+}
+
+.news
+.mod_tab_head_item {
+  color: #333;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-right: 1px solid #dfe0e1;
+}
+
+.news .news_first {
+  padding-left: 0;/*设置共同特征之后，在其后设置元素相对于基础样式不同进行修改*/
+}
+
+.news .news_last {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.news_tab_active {
+  position: absolute;
+  bottom: -1px;
+  left: -2px;
+  width: 28px;
+  height: 2px;
+  background: #db192b;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;/*未知运用*/
+  transition: transform .3s ease,-webkit-transform .3s ease;
+}
+
+.news_more {
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+
+.clearfix::after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}/*以上为头部部分*/
+
+
+.news .mod_tab_content {
+  padding: 12px 0;
+}
+
+
+.news_item {
+  line-height: 24px;
+  max-width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/*以上为第二部分*/
+
+.service {
+  overflow: hidden;
+  position: relative;
+  height: 210px;
+}
+.service_entry {
+  overflow: hidden;
+  width: 190px;
+}
+
+.service_list {
+  margin-left: -1px;
+  width: 192px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.service_item {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 47px;
+  height: 69px;
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  text-align: center;
+}
+.service_lk {
+  padding-top: 14px;
+  height: 55px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;/*此效果未知*/
+}
+.service_text {
+  height: 22px;
+  line-height: 22px;
+  border-top: 2px solid #fff;
+}
+.service_item .fa {
+  display: block;
+  font-size: 25px;
+}
+.service_lk, .service_text {
+  display: block;
+}
+/*列三内容*/

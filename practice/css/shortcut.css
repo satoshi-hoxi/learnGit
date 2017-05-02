@@ -1,0 +1,302 @@
+#shortcut {
+  border-bottom: 1px solid #ddd;
+  background-color: #e3e4e5
+}
+
+
+/*总设置*/
+#shortcut .w{
+  height: 30px;
+  line-height: 30px;
+  color: #999;
+}
+
+
+.dorpdown {
+  position: relative;
+  z-index: 21;
+}/*下拉链表位置设定*/
+
+.iconfont {
+  font-family: iconfont;
+  font-style: normal;
+  -webkit-text-stroke-width: .2px;
+}/*图标设置*/
+
+#shortcut li {
+  float: left;
+}
+
+#shortcut .dt {
+  padding-left: 7px;
+  padding-right: 7px;
+}/*盒子模型*/
+
+#shortcut .dorpdown-layer {
+  top: 30px;
+}
+#shortcut .dd {
+  line-height: 24px;
+}
+/*总设置*/
+
+/*f1*/
+/*城市总布局设置*/
+.f1 {
+  float: left;
+}
+
+#ttbar-mycity {
+  margin-left: 200px;
+}/*margin、padding为盒子模型的设置*/
+/*城市总布局设置*/
+
+/*城市样式设置*/
+li {
+  list-style: none;
+}
+em,i {
+  font-style: normal;
+}
+
+/*元素主要总内容*/
+#shortcut .cw-icon {
+  height: 28px;
+  line-height: 28px;
+}/*行距、长、宽*/
+
+.cw-icon {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  float: left;
+  border: 1px solid #e3e4e5;
+}/*此元素的外观样式设定*/
+/*元素主要总内容*/
+
+/*图标样式设置*/
+#ttbar-mycity .iconfont {
+  font-size: 14px;
+  color: #f10215;
+}
+
+.ci-left,.ci-right,.dd-spacer {
+  display: none!important;
+}
+/*图标样式设置*/
+
+/*下拉列表*/
+#ttbar-mycity .dd {
+  left: 0;
+  width: 300px;
+  padding: 10px;
+}
+
+.dorpdown:hover .dorpdown-layer, .hover .dorpdown-layer {
+    display: block;
+}
+#ttbar-mycity .item a:link {
+  color: #999;
+}
+#ttbar-mycity .item a:visited {
+  color: #999;
+}
+#ttbar-mycity .item a:hover {
+  color: #f10215;
+  background: #e7e3e3;
+}
+
+#shortcut .dorpdown-layer {
+  position: absolute;
+}
+.dorpdown-layer {
+  display: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, .1);
+}
+
+#ttbar-mycity .item {
+  float: left;
+  width: 60px;
+  padding: 2px 0;
+}
+#ttbar-mycity .item a.selectcd {
+  background-color: #f10215;
+  color: #fff;
+}
+#ttbar-mycity .item a {
+  float: left;
+  padding: 0 8px;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+/*下拉列表*/
+/*f1*/
+
+/*fr*/
+.fr {
+  float: right;
+}
+
+#ttbar-login {
+  margin-right: 8px;
+  z-index: 20;
+}
+
+#ttbar-login .link-login {
+  font-family: verdana\,simsun;
+}
+
+#shortcut .style-red {
+  color: #f10215;
+}
+
+#shortcut li.spacer {
+  overflow: hidden;
+  margin: 11px 5px 0;
+  width: 1px;
+  height: 10px;
+  background-color: #ccc;
+}
+
+.fr .iconfont {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+}
+
+.dorpdown:hover .cw-icon, .hover .cw-icon {
+    padding-bottom: 2px;
+    border-color: #ccc;
+    border-bottom: none;
+    background-color: #fff;
+}/*当按钮被访问时样式效果*/
+.fr .cw-icon {
+  padding-right: 20px!important;
+}
+
+/*我的京东*/
+#ttbar-myjd .dorpdown-layer {
+  left: 0;
+  width: 280px;
+}
+
+#ttbar-myjd .dd-spacer {
+  left: 0;
+  width: 82px;
+}
+
+#ttbar-myjd .myjdlist {
+  padding: 10px 0 10px 15px;
+  overflow: hidden;
+}
+
+#ttbar-myjd .myjdlist .fore1,
+#ttbar-myjd .myjdlist .fore2 {
+  float: left;
+  width: 126px;
+ }
+
+#ttbar-myjd .myjdlist_2 {
+  border-top: 1px solid #f1f1f1;
+}
+
+#ttbar-myjd .viewlist {
+  width: 250px;
+  padding: 0 15px 10px;
+  border-top: 1px dotted #ccc;
+  padding-top: 10px;
+}
+
+#ttbar-myjd .viewlist .smt {
+  zoom: 1;
+}
+/*我的京东*/
+
+/*客户服务*/
+#ttbar-serv .item-business,#ttbar-serv .item-client {
+  padding-left: 15px;
+  font-weight: 700;
+  color: #666;
+}
+
+#ttbar-serv .dd {
+  right: 0;
+  width: 170px;
+  padding: 10px 0;
+}
+#ttbar-serv .item {
+  display: inline-block;
+  width: 68px;
+  padding-left: 15px;
+}
+#ttbar-serv .item-business {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px dotted #eee;
+}
+/*客户服务*/
+
+/*网站导航*/
+#ttbar-navs .dd {
+  width: 988px;
+}
+#ttbar-navs .dd {
+  right: -84px;
+  width: 1188px;
+  padding: 15px 0;
+}
+
+#ttbar-navs dl.fore1 {
+  border-left: none;
+  width: 340px;
+}
+#ttbar-navs dl {
+  float: left;
+  width: 255px;
+  padding-left: 20px;
+  border-left: 1px solid #eee;
+}
+
+#ttbar-navs dt {
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #666;
+}
+
+#ttbar-navs dd {
+  overflow: hidden;
+}
+
+#ttbar-navs .item {
+  overflow: hidden;
+  float: left;
+  width: 85px;
+  white-space: nowrap;
+}
+/*网站导航*/
+
+/*手机京东*/
+.mobile {
+  position: relative;
+  z-index: 21;
+}
+.mobile_text {
+  width: 60px;
+  text-align: center;
+}
+.mobile_static {
+  position: absolute;
+  left: 3px;
+  width: 66px;
+  height: 66px;
+  border: 1px soild #cfcfcf;
+}
+/*手机京东*/
+/*shortcut*/
